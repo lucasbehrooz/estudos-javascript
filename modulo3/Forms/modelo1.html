@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da liga dos astronautas</title>
+</head>
+
+<body>
+    <h3>
+        <p><strong>Cadastro da liga dos astronautas</strong></p>
+    </h3>
+    <form action=""></form>
+    <label>Nome: </label><input type="text" name="nome" placeholder="Nome">
+    <p></p>
+    <label>Email: </label><input type="email" name="email" placeholder="Email">
+    <label>Password: </label><input type="password" name="password" placeholder="Password">
+    <p></p>
+    <label>Data de nascimento: </label><input type="date" name="data_nascimento" placeholder="Data de nascimento">
+    <label>Foto: </label> <input type="file" name="Escolher arquivo" placeholder="Escolher arquivo">
+    <p></p>
+    <label>Nacionalidade: </label><input list="nacionalidade" />
+    <datalist id="nacionalidade">
+        <option value="Brasileiro">
+        <option value="Alemão">
+        <option value="Inglês">
+        <option value="Espanhol">
+        <option value="Russo">
+        <option value="Japones">
+        <option value="China">
+        <option value="Coreano">
+        <option value="Italiano">
+        <option value="Frances">
+    </datalist>
+    <label>Genero: </label><input type="radio">Masculino<input type="radio">Feminino<input type="radio">Outro<p></p>
+    <label>Suas principais qualidades: </label>
+    <p></p>
+    <input type="checkbox" name="qualidades[]" value="Coragem">Coragem
+    <input type="checkbox" name="qualidades[]" value="Inteligência">Inteligência
+    <input type="checkbox" name="qualidades[]" value="Força">Força
+    <input type="checkbox" name="qualidades[]" value="Velocidade">Velocidade
+    <p></p>
+    <textarea name="porque" placeholder="Por que você quer ser um astronauta?"
+        style="height: 200px; width: 500px;text-align: justify;" required></textarea>
+    <p></p>
+
+    <input type="submit" value="Cadastrar">
+
+</body>
+
+</html>
